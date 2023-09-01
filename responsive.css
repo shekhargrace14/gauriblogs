@@ -1,0 +1,7 @@
+/* responsive css for tablate start */
+@media screen and (min-width: 769px) {
+body{
+    background-color: red;
+}
+}
+/* responsive css for tablate end */

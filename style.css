@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+/* global css starts here  */
+h1{
+    color: white;
+    font-size: 50px;
+    margin: 30px 0;
+    font-family: 'Playfair Display', serif;
+
+}
+h2{
+    color: black;
+    font-size: 40px;
+    margin: 0 0 20px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+
+}
+p{
+    font-size: 16px;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-family: 'poppins';
+
+}
+button{
+    /* width: 200px; */
+    padding: 16px;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin: 20px 0  ;
+} 
+.ghost-btn{
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.d-flex{
+    display:flex;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-center{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+.flex-column{
+    flex-direction: column;
+
+}
+.active{
+   background-color: #FF0000;
+   color: white;
+}
+a{
+    text-decoration: none;
+    color: none;
+}
+/* global css ends here  */
+
+.navbar .top{
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+.navbar .top ul li{
+    list-style: none;
+    margin: 0 10px ;
+}
+.navbar .top ul li a{
+    color: white;
+
+}
+.navigation{
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px 0;
+    
+}
+.navigation ul li{
+    list-style: none;
+
+}
+.navigation ul li a{
+    text-decoration: none;
+    padding: 10px 16px;
+}
+/* hero starts here  */
+.hero{
+    background-image: linear-gradient(to right, rgba(0,0,0,.4), rgba(0,0,0,.4)),url(./Assets/hero-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.hero .column{
+    width: 50%;
+    margin: 150px 0;
+    
+}
+.hero p{
+    color: white;
+}
+/* hero ends here  */
+/* pods starts here  */
+.pods{
+
+    padding: 80px 40px;
+}
+.pods .column{
+    background-color: brown;
+    width: 30%;
+}
+.pods .row .column1{
+    width: 30%;
+    height: 300px;
+    background-image: url(./Assets/image1.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.pods .row .column2{
+    width: 30%;
+    height: 300px;
+    background-image: url(./Assets/image2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.pods .row .column3{
+    width: 30%;
+    height: 300px;
+    background-image: url(./Assets/image3.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.pods .row .column .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    
+}
+/* pods ends here  */
+
+/* blog section starts here  */
+.blog{
+    padding: 80px 40px;
+}
+.blog img{
+    width: 100%;
+    
+}
+h2 span{
+    font-weight: 900;
+    font-style: italic;
+}
+p span{
+    color: red;
+}
+.blog img{
+    margin:20px 0  ;
+}
+
+/* block section starts here  */
+/* socialmedia starts here  */
+.socialmedia{
+    /* background-color: aquamarine; */
+    border-bottom: 1px solid #d7d5d5;
+    border-top: 1px solid #d7d5d5;
+    margin: 0 40px 80px;
+    padding: 15px;
+}
+.socialmedia p{
+    margin: 0 50px 0 0;
+}
+.socialmedia li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+/* socialmedia ends here  */
+/* About starts here  */
+.about{
+    width: 80%;
+    padding: 80px 40px;
+    margin: 0 auto;
+
+    /* background-color: cadetblue; */
+}
+.about .row{
+    /* background-color: aquamarine; */
+    text-align: center;
+}
+.about img{
+    width: 40%;
+    margin: 20px 0;
+}
+.about button{
+    color: red;
+}
+/* About starts here  */
+
+
+/* footer starts here  */
+.footer{
+    padding: 0 40px;
+    border-top:1px solid #d7d5d5 ;
+}
+.footer ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+.footer ul li i{
+    margin: 20px;
+    color: red;
+}
+/* footer ends here  */
